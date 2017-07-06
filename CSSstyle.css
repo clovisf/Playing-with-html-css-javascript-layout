@@ -1,5 +1,5 @@
 ﻿body {
-    	background-color: #f2e8c4;
+    	background-color: #000;
 	font-family: 'Muli', sans-serif;
 
 }
@@ -13,19 +13,21 @@
 	
 }
 #mainHeaderDiv {
-    width: 100%;
-    height: 200px;
-    border: 0px solid black;
-    float: top;
-    background-color: transparent;
-    margin: auto;	
+	
+    	width: 100%;
+    	height: 200px;
+    	border: 0px solid #000;
+	float: top;
+    	background-color: transparent;
+    	margin: auto;	
    
 }
 #headerSocialMedia{
+	
 	width: 100%;
     	height: 30px;
-    	border-bottom: 1px #c0c0c0 solid;
-	border-top: 1px #c0c0c0 solid;
+    	border: 1px #c0c0c0 solid;
+	border-radius: 20px 20px 0px 0px;
     	float: right;
     	background-color: #FFFFFF;
 	position: relative;
@@ -33,13 +35,44 @@
 	text-align: right;
 }
 
+#headerSocialMedia ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+#headerSocialMedia li {
+    	float: right;
+	border-left: 1px solid #c0c0c0;
+}
+
+#headerSocialMedia li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 3px 10px;
+    text-decoration: none;
+}
+
+
+#headerSocialMedia li a:hover {
+    	background-color: #0FBE7C;
+	color: #ffffff;
+}
+
+#headerSocialMedia .active {
+    background-color: #0FBE7C;
+}
+
 #headerLogo{
-	width: 20%;
+	width: 19.9%;
     	height: 135px;
-    	border: 0px solid black;
+    	border-left: 1px solid #c0c0c0;
     	float: left;
 	align: middle;
-    	background-color: #f2e8c4;
+    	background-color: #ffffff;
 	margin: auto;
 	
 }
@@ -50,17 +83,17 @@
 }
 
 #headerBanner{
-	width: 80%;
+	width: 79.9%;
     	height: 135px;
-    	border: 0px solid green;
-	float: right;
-    	background-color: #0FBE7C;
+    	border-right: 1px solid #c0c0c0;
+	float:right;
+    	background-color: #ffffff;
 	position: relative;
 	text-align: center;
 		
 	
 }
-#innerBanner{
+#titlePhrase{
 	display: inline-block;
   	margin: 0 auto;
 	width: 468px;
@@ -70,31 +103,62 @@
 	align-items: center;
 }
 #headerMenu1{
-	
+	border-radius: 0px 0px 20px 20px;
     	height: 30px;
 	width: 100%;
-	border-bottom: 1px #c0c0c0 solid;
-	border-top: 1px #c0c0c0 solid;
+	border: 1px #c0c0c0 solid;
+	
     	float: left;
     	background-color: #FFFFFF;
-	
-	
-  	
-	
+}
+#headerMenu1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+#headerMenu1 li {
+    	float: left;
+	border-right: 1px solid #c0c0c0;
+}
+
+#headerMenu1 li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+
+#headerMenu1 li a:hover {
+    	background-color: #0FBE7C;
+	color: #ffffff;
+}
+
+#headerMenu1 .active {
+    background-color: #0FBE7C;
 }
 
 #bodyDiv{
-	   	
+	 
+	width: 100%;  	
     	border: 0px solid #c0c0c0;
     	background-color: #FFFFFF;
-	float: center;
-	
-	
+	float: left;
 	margin: auto;
 	margin-top: 5px;
-	
-  overflow: auto;
-  text-overflow: ellipsis; // This is where the magic happens
+	overflow: auto;
+  	text-overflow: ellipsis; // This is where the magic happens
+}
+#contentDiv{
+	background-color: #ff0000;
+	width: 50%;
+	float: center;
+	overflow: auto;
+  	text-overflow: ellipsis; // This is where the magic happens
 }
 #pageTitle{
 display: block;
@@ -106,19 +170,20 @@ display: block;
     font-weight: bold;	
 }
 #rightSideMenu{
+	border-radius: 20px 20px 20px 20px;
 	width: 300px;
-	height: 500px;
-	border-left: 1px solid #c0c0c0;
+	
+	border: 1px solid #c0c0c0;
     	float: right;
     	background-color: #FFFFFF;
 	position: relative;
-	margin: auto;
+	margin: 0;
 }
 #rSideMenuSector1{
 	overflow: auto;
 	text-align: center;
 	width: 100%;
-	border-top: 1px #c0c0c0 solid;
+	
 	
 }
 #rSideMenuSector2{
@@ -159,37 +224,58 @@ display: block;
 }
 #contentDiv{
 	
-	width: 400px;
+	min-width: 500px;
+	
 	background-color: 00ff00;
 	display: inline-block;
   	margin: 0 auto;
 	float: center;
+	overflow: auto;
 }
 #bottomDiv{
 	
     	background-color: #c0c0c0;
 	width: 100%;
+	height: 60px;
 	border-top: 1px #000000 solid;
+	border-radius: 15px 15px 0px 0px;	
+	position:absolute;
+   	bottom:0;
+	
 	
 	
 
 }
 #linksMenu {
 	list-style-type: none;
+	float: center;
 	
 }
 
 
-#buttons {
-margin: 1px;
-width: 100%;
-background-color: #0FBE7C;
-    border: none;
-    color: white;
-    padding: 2px 2px;
-    text-align: center;
-    text-decoration: none;
+#linksMenu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
     
-    font-size: 12px;
-	border-radius: 8px;
+    
 }
+
+#linksMenu li a {
+    display: block;
+    color: #000;
+    padding: 3px 0px;
+    text-decoration: none;
+}
+
+
+#linksMenu li a:hover {
+    background-color: #0FBE7C;
+    color: white;
+}
+#linksMenu .active {
+    background-color: #0FBE7C;
+    color: white;
+}
+
+
