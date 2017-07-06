@@ -1,78 +1,195 @@
 ﻿body {
-    background-color: lightblue;
+    	background-color: #f2e8c4;
+	font-family: 'Muli', sans-serif;
+
 }
 #wholeBody {
     
-    border: 1px solid green;
-    margin: 5px;
-    height: 100%;
-
+    	border: 0px solid black;    
+    	height: 90%;
+	min-width:700px;
+    	width: auto !important;
+    	width:700px;
+	
 }
 #mainHeaderDiv {
     width: 100%;
     height: 200px;
-    border: 1px solid green;
+    border: 0px solid black;
     float: top;
-    background-color: #ff0000;
+    background-color: transparent;
+    margin: auto;	
+   
 }
 #headerSocialMedia{
-	width: 60%;
+	width: 100%;
     	height: 30px;
-    	border: 1px solid green;
+    	border-bottom: 1px #c0c0c0 solid;
+	border-top: 1px #c0c0c0 solid;
     	float: right;
-    	background-color: #660000;
+    	background-color: #FFFFFF;
 	position: relative;
+	margin: auto;
+	text-align: right;
 }
 
 #headerLogo{
-	width: 200px;
-    	height: 100%;
-    	border: 1px solid green;
+	width: 20%;
+    	height: 135px;
+    	border: 0px solid black;
     	float: left;
-    	background-color: #990000;
+	align: middle;
+    	background-color: #f2e8c4;
+	margin: auto;
 	
 }
+#logo-img{
+	text-align: center;
+	margin: auto;
+	
+}
+
 #headerBanner{
-	width: 100%;
-    	height: 140px;
-    	border: 1px solid green;
-    	background-color: #550000;
-	position: static;
+	width: 80%;
+    	height: 135px;
+    	border: 0px solid green;
+	float: right;
+    	background-color: #0FBE7C;
+	position: relative;
+	text-align: center;
+		
+	
+}
+#innerBanner{
+	display: inline-block;
+  	margin: 0 auto;
+	width: 468px;
+	height: 60px;
+	background-color: #C85858;
+	left: 50%;
+	align-items: center;
 }
 #headerMenu1{
-	width: 100%;
+	
     	height: 30px;
-    	border: 1px solid green;
-    	bottom: 0;
-    	background-color: #ff5500;
+	width: 100%;
+	border-bottom: 1px #c0c0c0 solid;
+	border-top: 1px #c0c0c0 solid;
+    	float: left;
+    	background-color: #FFFFFF;
+	
+	
+  	
+	
 }
 
 #bodyDiv{
-	width: 600px;    	
-    	border: 1px solid blue;
-    	background-color: #55ff55;
-	float: left;
-	position: relative;
-	left: 0px;
+	   	
+    	border: 0px solid #c0c0c0;
+    	background-color: #FFFFFF;
+	float: center;
+	
+	
+	margin: auto;
+	margin-top: 5px;
+	
+  overflow: auto;
+  text-overflow: ellipsis; // This is where the magic happens
+}
+#pageTitle{
+display: block;
+    font-size: 2em;
+    margin-top:0;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;	
 }
 #rightSideMenu{
 	width: 300px;
-	height: 300px;
-	border: 1px solid blue;
+	height: 500px;
+	border-left: 1px solid #c0c0c0;
     	float: right;
-    	background-color: #00ff00;
+    	background-color: #FFFFFF;
 	position: relative;
+	margin: auto;
+}
+#rSideMenuSector1{
+	overflow: auto;
+	text-align: center;
+	width: 100%;
+	border-top: 1px #c0c0c0 solid;
 	
+}
+#rSideMenuSector2{
+	text-align: center;
+	width: 100%;
+	overflow: auto;
+	border-top: 1px #c0c0c0 solid;
+}
+#rSideMenuSector3{
+	text-align: center;
+	width: 100%;
+	overflow: auto;
+	border-top: 1px #c0c0c0 solid;
+}
+#rSideMenuSector4{
+	text-align: center;
+	width: 100%;
+	overflow: auto;
+	border-top: 1px #c0c0c0 solid;
+}
+#rSideMenuSector5{
+	text-align: center;
+	width: 100%;
+	overflow: auto;
+	border-top: 1px #c0c0c0 solid;
+}
+#rSideMenuSector6{
+	text-align: center;
+	width: 100%;
+	overflow: auto;
+	border-top: 1px #c0c0c0 solid;
+}
+#rSideMenuSector7{
+	text-align: center;
+	width: 100%;
+	overflow: auto;
+	border-top: 1px #c0c0c0 solid;
+}
+#contentDiv{
 	
-	
+	width: 400px;
+	background-color: 00ff00;
+	display: inline-block;
+  	margin: 0 auto;
+	float: center;
 }
 #bottomDiv{
 	
-    	height: 90px;
+    	background-color: #c0c0c0;
 	width: 100%;
-    	border: 1px solid green;
-    	position: absolute;
-    	bottom: 0px;
-    	background-color: #0000ff;
-	margin: 5px;
+	border-top: 1px #000000 solid;
+	
+	
+
+}
+#linksMenu {
+	list-style-type: none;
+	
+}
+
+
+#buttons {
+margin: 1px;
+width: 100%;
+background-color: #0FBE7C;
+    border: none;
+    color: white;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 12px;
+	border-radius: 8px;
 }
